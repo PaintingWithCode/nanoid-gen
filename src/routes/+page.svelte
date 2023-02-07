@@ -8,17 +8,17 @@
 <div class="flex flex-col space-y-8">
 	<AlphabetInput />
 	<LengthSlider />
-	<div class="flex flex-row space-x-8">
+	<div class="flex flex-row space-x-2 sm:space-x-8">
 		<PrefixInput />
 		<AmountInput />
 	</div>
 	<button
 		type="button"
 		disabled={$alphabet === ''}
-		class="mx-auto w-1/2 rounded-sm bg-sea-green-700/80
-	py-2 text-lg tracking-wide text-sea-green-50 transition
-	duration-300 enabled:hover:bg-sea-green-900/80 disabled:cursor-not-allowed
-	disabled:opacity-40"
+		class="mx-auto w-1/2
+	rounded-sm bg-sea-green-700/80 py-2 text-lg tracking-wide text-sea-green-50
+	transition duration-300 enabled:hover:bg-sea-green-900/80
+	disabled:cursor-not-allowed disabled:opacity-40"
 		on:click={generateNanoids}
 	>
 		Generate
