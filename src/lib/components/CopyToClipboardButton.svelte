@@ -30,7 +30,8 @@
 
 <button
 	type="button"
-	class="mu mu-copy tooltip-entering tooltip-leaving ml-4 cursor-pointer text-xl"
+	class="mu mu-copy tooltip-entering tooltip-leaving ml-4 cursor-pointer text-xl text-sea-green-900/40 transition
+	hover:text-sea-green-600"
 	use:popperRef
 	on:click={handleClick}
 	on:mouseenter={handleMouseEnter}
@@ -42,7 +43,7 @@
 		id="tooltip"
 		use:popperContent
 		transition:fade={{ duration: 150 }}
-		class="rounded-sm px-2 py-1 text-sm bg-black/80 text-white/90"
+		class="rounded-sm bg-sea-green-200 px-2 py-1 text-sm text-sea-green-900"
 	>
 		{tooltipContent}
 	</div>

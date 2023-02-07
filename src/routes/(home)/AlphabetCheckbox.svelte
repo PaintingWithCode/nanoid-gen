@@ -4,11 +4,20 @@
 	export let checked: boolean;
 </script>
 
-<div class="flex items-center">
-	<input id={inputId} type="checkbox" {checked} on:change class="h-4 w-4 rounded-sm" />
+<div class="group flex items-center">
+	<input
+		id={inputId}
+		type="checkbox"
+		{checked}
+		on:change
+		class="h-4 w-4
+	cursor-pointer rounded-sm border-sea-green-300 bg-sea-green-50/80
+	text-sea-green-700/80 focus:ring-sea-green-700/80 focus:ring-offset-sea-green-100"
+	/>
 	<label
 		for={inputId}
-		class={`ml-2 text-sm transition-opacity  ${checked ? 'opacity-70' : 'opacity-40 '}`}
+		class={`ml-2 cursor-pointer text-sm text-sea-green-900
+	transition-opacity group-hover:opacity-80  ${checked ? 'opacity-80' : 'opacity-60 '}`}
 		>{label}</label
 	>
 </div>

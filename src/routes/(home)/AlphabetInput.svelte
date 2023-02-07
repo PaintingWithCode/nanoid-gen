@@ -37,7 +37,7 @@
 			}
 
 			if (excludeLookAlikes) {
-				a = a.replaceAll(/(1|l|I|0|O|o|u|v|4|A|5|S|s|X|x)/g, '');
+				a = a.replaceAll(/(1|l|I|0|O|o|u|v|4|A|5|S|s)/g, '');
 			}
 
 			$alphabet = a;
@@ -132,7 +132,7 @@
 			/>
 			<AlphabetCheckbox
 				inputId="look-alikes"
-				label="Exclude look-alikes (1lI0Oouv4A5SsXx)"
+				label="Exclude look-alikes (1lI0Oouv4A5Ss)"
 				checked={excludeLookAlikes}
 				on:change={() => handleCheckboxToggle('lookAlikes')}
 			/>

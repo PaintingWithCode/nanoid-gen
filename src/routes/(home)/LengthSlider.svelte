@@ -21,7 +21,19 @@
 		pipstep={4}
 		all="label"
 	/>
-	<p class="pt-2 transition-colors">
-		<strong>{$length}</strong> characters
+	<p class="pt-2 text-sea-green-900">
+		<strong class="font-mono">{$length}</strong> characters
 	</p>
 </div>
+
+<style>
+	:global(:root) {
+		--range-slider: #205c4140;
+		--range-handle-inactive: #457961;
+		--range-handle-focus: #183c2d;
+		--range-pip-text: #658374;
+		--range-pip-hover: #183c2d;
+		--range-pip-active: #183c2d;
+		--range-pip-active-text: #183c2d;
+	}
+</style>

@@ -41,5 +41,8 @@
 	{value}
 	use:setAttributes
 	on:input={handleInput}
-	class="rounded-sm border-none bg-slate-100 p-2 font-mono transition-colors focus:outline-none focus:ring-2"
+	class="rounded-sm
+border-none bg-sea-green-50/80 p-2 font-mono text-sea-green-900
+transition-colors focus:bg-sea-green-50 focus:outline-none focus:ring-2
+focus:ring-sea-green-600"
 />

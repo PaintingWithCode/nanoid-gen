@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { AlphabetInput, AmountInput, NanoidsOutput, LengthSlider, PrefixInput } from './(home)';
+	import { alphabet } from '$lib/stores';
 
 	let generateNanoids: () => void;
 </script>
@@ -13,7 +14,11 @@
 	</div>
 	<button
 		type="button"
-		class="rounded-sm py-2 text-lg bg-black text-white"
+		disabled={$alphabet === ''}
+		class="mx-auto w-1/2 rounded-sm bg-sea-green-700/80
+	py-2 text-lg tracking-wide text-sea-green-50 transition
+	duration-300 enabled:hover:bg-sea-green-900/80 disabled:cursor-not-allowed
+	disabled:opacity-40"
 		on:click={generateNanoids}
 	>
 		Generate

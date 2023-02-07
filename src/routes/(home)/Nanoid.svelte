@@ -39,7 +39,7 @@
 </script>
 
 {#key nanoid}
-	<p in:flipboard class="font-mono leading-tight">
+	<p in:flipboard class="font-mono leading-tight text-sea-green-900">
 		{nanoid}
 	</p>
 {/key}
