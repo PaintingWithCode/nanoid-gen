@@ -16,8 +16,8 @@
 		type="button"
 		disabled={$alphabet === ''}
 		class="mx-auto w-1/2
-	rounded-sm bg-sea-green-700/80 py-2 text-lg tracking-wide text-sea-green-50
-	transition duration-300 enabled:hover:bg-sea-green-900/80
+	rounded-sm bg-sea-green-700/80 py-2 text-lg tracking-wide text-white
+	transition duration-300 enabled:hover:bg-sea-green-700
 	disabled:cursor-not-allowed disabled:opacity-40"
 		on:click={generateNanoids}
 	>

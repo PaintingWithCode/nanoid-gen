@@ -30,7 +30,7 @@
 {#if nanoids.length > 0}
 	<div
 		class="flex flex-row items-start justify-between rounded-sm border
-		border-dashed border-sea-green-400 bg-sea-green-50 p-2 shadow-sm"
+		border-dashed border-sea-green-400 bg-white p-2 shadow-sm"
 	>
 		<div class="mt-1">
 			{#each nanoids as nanoid}

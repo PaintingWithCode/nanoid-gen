@@ -42,7 +42,7 @@
 	use:setAttributes
 	on:input={handleInput}
 	class="truncate
-rounded-sm border-none bg-sea-green-50/80 p-2 font-mono text-sea-green-900
-transition-colors focus:bg-sea-green-50 focus:outline-none focus:ring-2
-focus:ring-sea-green-600"
+rounded-sm border-2 border-sea-green-100 bg-white p-2 font-mono text-sea-green-900
+transition focus:border-sea-green-600
+focus:outline-none focus:ring-0"
 />

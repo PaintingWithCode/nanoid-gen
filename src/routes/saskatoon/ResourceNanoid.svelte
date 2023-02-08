@@ -60,7 +60,7 @@
 <div class="flex basis-1/2 flex-col">
 	<div class="w-fit">
 		<div class="flex flex-row items-center justify-between leading-none">
-			<p class="text-sm font-medium leading-none text-sea-green-900/60">
+			<p class="text-sm font-medium leading-none text-sea-green-900/70">
 				{resource}
 			</p>
 			<button
@@ -75,7 +75,7 @@
 		</div>
 		<div
 			class="group inline-flex w-fit items-center rounded-sm border
-		border-dashed border-sea-green-400 bg-sea-green-50 p-2 shadow-sm"
+		border-dashed border-sea-green-400 bg-white p-2 shadow-sm"
 		>
 			{#key nanoid}
 				<p in:flipboard class="font-mono font-light leading-none text-sea-green-900">
