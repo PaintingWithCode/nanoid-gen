@@ -30,6 +30,7 @@
 
 <button
 	type="button"
+	aria-label="Copy to clipboard"
 	class="mu mu-copy tooltip-entering tooltip-leaving ml-4 cursor-pointer text-xl text-sea-green-900/40 transition
 	hover:text-sea-green-600"
 	use:popperRef

@@ -66,8 +66,7 @@
 			<button
 				type="button"
 				title="Regenerate Nano ID"
-				aria-label="Regenerate
-			Nano ID"
+				aria-label="Regenerate Nano ID"
 				class="mu mu-refresh mr-2.5 cursor-pointer text-xl
 			text-sea-green-900/40 transition hover:text-sea-green-600"
 				on:click={handleRegenerate}
