@@ -16,8 +16,8 @@
 	/>
 	<label
 		for={inputId}
-		class={`ml-2 cursor-pointer text-sm text-sea-green-900
-	transition-opacity group-hover:opacity-80  ${checked ? 'opacity-80' : 'opacity-60 '}`}
+		class={`ml-2 cursor-pointer text-sm text-sea-green-800
+	transition-opacity group-hover:opacity-80  ${checked ? 'opacity-90' : 'opacity-70 '}`}
 		>{label}</label
 	>
 </div>

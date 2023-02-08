@@ -31,7 +31,7 @@
 		--range-slider: #205c4140;
 		--range-handle-inactive: #457961;
 		--range-handle-focus: #183c2d;
-		--range-pip-text: #658374;
+		--range-pip-text: #547a67;
 		--range-pip-hover: #183c2d;
 		--range-pip-active: #183c2d;
 		--range-pip-active-text: #183c2d;

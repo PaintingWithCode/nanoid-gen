@@ -95,7 +95,7 @@
 </script>
 
 <div class="flex flex-col">
-	<Label inputId="amount" text="Alphabet" />
+	<Label inputId="alphabet" text="Alphabet" />
 	<div class="mt-1 mb-4 flex space-x-8">
 		<div class="flex basis-1/2 flex-col space-y-4">
 			<AlphabetCheckbox
