@@ -1,5 +1,5 @@
 <script lang="ts">
-	import generateNanoid from '$lib/nanoidGenerator';
+	import generateNanoid from '$lib/core/nanoidGenerator';
 	import { DEFAULT_ALPHABET } from '$lib/constants';
 	import CopyToClipboardButton from '$lib/components/CopyToClipboardButton.svelte';
 
@@ -60,9 +60,9 @@
 <div class="flex basis-1/2 flex-col">
 	<div class="w-fit">
 		<div class="flex flex-row items-center justify-between leading-none">
-			<p class="text-sm font-medium leading-none text-sea-green-900/70">
+			<h4 class="text-sm font-medium leading-none text-sea-green-900/70">
 				{resource}
-			</p>
+			</h4>
 			<button
 				type="button"
 				title="Regenerate Nano ID"

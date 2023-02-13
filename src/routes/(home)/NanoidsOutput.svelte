@@ -1,5 +1,5 @@
 <script lang="ts">
-	import generateNanoid from '$lib/nanoidGenerator';
+	import generateNanoid from '$lib/core/nanoidGenerator';
 	import { alphabet, amount, length, prefix } from '$lib/stores';
 
 	import Nanoid from './Nanoid.svelte';

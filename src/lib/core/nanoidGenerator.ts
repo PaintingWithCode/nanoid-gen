@@ -1,5 +1,5 @@
 import { customAlphabet } from 'nanoid';
-import { DEFAULT_ALPHABET } from './constants';
+import { DEFAULT_ALPHABET } from '../constants';
 
 type Options = {
 	length: number;

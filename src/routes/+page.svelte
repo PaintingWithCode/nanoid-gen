@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { AlphabetInput, AmountInput, NanoidsOutput, LengthSlider, PrefixInput } from './(home)';
 	import { alphabet } from '$lib/stores';
+	import CollisionProbability from './(home)/CollisionProbability.svelte';
 
 	let generateNanoids: () => void;
 </script>
@@ -8,6 +9,7 @@
 <div class="flex flex-col space-y-8">
 	<AlphabetInput />
 	<LengthSlider />
+	<CollisionProbability />
 	<div class="flex flex-row space-x-2 sm:space-x-8">
 		<PrefixInput />
 		<AmountInput />

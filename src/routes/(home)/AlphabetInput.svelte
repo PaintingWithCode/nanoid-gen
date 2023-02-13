@@ -25,7 +25,7 @@
 			}
 
 			if (includeUpperCase) {
-				a += 'ABCDEFGHIJKLMNOPQRSTUVXYZ';
+				a += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 			}
 
 			if (includeSymbols) {
