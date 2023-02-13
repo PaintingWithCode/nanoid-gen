@@ -97,7 +97,7 @@
 <div class="flex flex-col">
 	<Label inputId="alphabet" text="Alphabet" />
 	<div class="mt-1 mb-4 flex space-x-8">
-		<div class="flex basis-1/2 flex-col space-y-4">
+		<div class="flex basis-1/2 flex-col space-y-2 sm:space-y-4">
 			<AlphabetCheckbox
 				inputId="numbers"
 				label="Include numbers"

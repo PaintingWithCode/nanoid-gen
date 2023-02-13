@@ -6,7 +6,7 @@
 	let generateNanoids: () => void;
 </script>
 
-<div class="flex flex-col space-y-8">
+<div class="flex flex-col space-y-4 sm:space-y-8">
 	<AlphabetInput />
 	<LengthSlider />
 	<CollisionProbability />
@@ -17,10 +17,10 @@
 	<button
 		type="button"
 		disabled={$alphabet === ''}
-		class="mx-auto w-1/2
-	rounded-sm bg-sea-green-700/80 py-2 text-lg tracking-wide text-white
-	transition duration-300 enabled:hover:bg-sea-green-700
-	disabled:cursor-not-allowed disabled:opacity-40"
+		class="mx-auto w-2/3 rounded-sm
+	bg-sea-green-700/80 py-2 text-lg tracking-wide text-white transition
+	duration-300 enabled:hover:bg-sea-green-700 disabled:cursor-not-allowed
+	disabled:opacity-40 sm:w-1/2"
 		on:click={generateNanoids}
 	>
 		Generate
