@@ -67,10 +67,21 @@
 				type="button"
 				title="Regenerate Nano ID"
 				aria-label="Regenerate Nano ID"
-				class="mu mu-refresh mr-2.5 cursor-pointer text-xl
-			text-sea-green-900/40 transition hover:text-sea-green-600"
+				class="mr-2.5 cursor-pointer text-sea-green-900/40 transition hover:text-sea-green-600"
 				on:click={handleRegenerate}
-			/>
+			>
+				<svg
+					width="18.5"
+					height="28"
+					fill="currentColor"
+					viewBox="0 0 440 480"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M220 220l100-90-100-90 0 70q-64 1-106 43-42 42-44 107 2 64 44 106 42 42 106 44 65-2 107-44 42-42 43-106l0-20-40 0 0 20q-1 48-32 78-30 31-78 32-48-1-78-32-31-30-32-78 1-48 32-78 30-31 78-32l0 70z"
+					/>
+				</svg>
+			</button>
 		</div>
 		<div
 			class="group inline-flex w-fit items-center rounded-sm border

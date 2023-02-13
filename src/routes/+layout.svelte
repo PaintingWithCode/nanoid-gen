@@ -1,6 +1,4 @@
 <script lang="ts">
-	import 'microns/fonts/microns.css';
-
 	import { GithubTriangle } from './(header)';
 	import '../app.css';
 </script>
