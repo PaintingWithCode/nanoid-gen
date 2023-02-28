@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { alphabet } from '$lib/stores';
+	import { alphabet } from '$lib/stores/main';
 
 	import { Label, Input } from '$lib/components/form';
 	import AlphabetCheckbox from './AlphabetCheckbox.svelte';

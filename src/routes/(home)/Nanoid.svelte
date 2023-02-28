@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { alphabet } from '$lib/stores';
+	import { alphabet } from '$lib/stores/main';
 	export let nanoid: string;
 
 	let lastTransitionTime = 0;
@@ -39,7 +39,7 @@
 </script>
 
 {#key nanoid}
-	<p in:flipboard class="font-mono leading-tight text-sea-green-900">
+	<p in:flipboard class="font-mono leading-tight text-sea-green-900 dark:text-celtic-50">
 		{nanoid}
 	</p>
 {/key}

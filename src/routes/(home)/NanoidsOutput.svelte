@@ -1,6 +1,6 @@
 <script lang="ts">
 	import generateNanoid from '$lib/core/nanoidGenerator';
-	import { alphabet, amount, length, prefix } from '$lib/stores';
+	import { alphabet, amount, length, prefix } from '$lib/stores/main';
 
 	import Nanoid from './Nanoid.svelte';
 	import CopyToClipboardButton from '$lib/components/CopyToClipboardButton.svelte';
@@ -30,7 +30,7 @@
 {#if nanoids.length > 0}
 	<div
 		class="flex flex-row items-start justify-between rounded-sm border
-		border-dashed border-sea-green-400 bg-white p-2 shadow-sm"
+		border-dashed border-sea-green-400 bg-white p-2 shadow-sm dark:border-celtic-300 dark:bg-celtic-700/80"
 	>
 		<div class="mt-1">
 			{#each nanoids as nanoid}

@@ -41,8 +41,7 @@
 	{value}
 	use:setAttributes
 	on:input={handleInput}
-	class="w-full
-truncate rounded-sm border-2 border-sea-green-100 bg-white p-2 font-mono
-text-sea-green-900 transition focus:border-sea-green-600 focus:outline-none
-focus:ring-0"
+	class="w-full truncate
+rounded-sm border-2 border-sea-green-100 bg-white p-2 font-mono text-sea-green-900 focus:border-sea-green-600 focus:outline-none focus:ring-0
+dark:border-celtic-700/60 dark:bg-celtic-700/40 dark:text-celtic-50 dark:focus:border-celtic-500"
 />

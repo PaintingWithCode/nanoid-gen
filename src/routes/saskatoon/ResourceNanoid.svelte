@@ -60,14 +60,20 @@
 <div class="flex basis-1/2 flex-col">
 	<div class="w-fit">
 		<div class="flex flex-row items-center justify-between leading-none">
-			<h4 class="text-sm font-medium leading-none text-sea-green-900/70">
+			<h4
+				class="text-sm font-medium leading-none text-sea-green-900/70
+			dark:text-celtic-100/70"
+			>
 				{resource}
 			</h4>
 			<button
 				type="button"
 				title="Regenerate Nano ID"
-				aria-label="Regenerate Nano ID"
-				class="mr-2.5 cursor-pointer text-sea-green-900/40 transition hover:text-sea-green-600"
+				aria-label="Regenerate
+			Nano ID"
+				class="mr-2.5 cursor-pointer text-sea-green-900/40
+			hover:text-sea-green-600 dark:text-celtic-50/80
+			dark:hover:text-celtic-400"
 				on:click={handleRegenerate}
 			>
 				<svg
@@ -85,10 +91,15 @@
 		</div>
 		<div
 			class="group inline-flex w-fit items-center rounded-sm border
-		border-dashed border-sea-green-400 bg-white p-2 shadow-sm"
+		border-dashed border-sea-green-400 bg-white p-2 shadow-sm
+		dark:border-celtic-300 dark:bg-celtic-700/80"
 		>
 			{#key nanoid}
-				<p in:flipboard class="font-mono font-light leading-none text-sea-green-900">
+				<p
+					in:flipboard
+					class="font-mono font-light leading-none
+				text-sea-green-900 dark:text-celtic-50"
+				>
 					{nanoid}
 				</p>
 			{/key}

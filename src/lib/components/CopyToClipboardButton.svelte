@@ -31,8 +31,8 @@
 <button
 	type="button"
 	aria-label="Copy to clipboard"
-	class="tooltip-entering tooltip-leaving ml-4 cursor-pointer text-sea-green-900/40 transition
-	hover:text-sea-green-600"
+	class="tooltip-entering tooltip-leaving ml-4 cursor-pointer text-sea-green-900/40 hover:text-sea-green-600
+	dark:text-celtic-50/80 dark:hover:text-celtic-400"
 	use:popperRef
 	on:click={handleClick}
 	on:mouseenter={handleMouseEnter}
@@ -56,7 +56,7 @@
 		id="tooltip"
 		use:popperContent
 		transition:fade={{ duration: 150 }}
-		class="rounded-sm bg-sea-green-200 px-2 py-1 text-sm text-sea-green-900"
+		class="rounded-sm bg-sea-green-200 px-2 py-1 text-sm text-sea-green-900 dark:bg-[#091712] dark:text-celtic-50"
 	>
 		{tooltipContent}
 	</div>

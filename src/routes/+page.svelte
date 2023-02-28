@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { AlphabetInput, AmountInput, NanoidsOutput, LengthSlider, PrefixInput } from './(home)';
-	import { alphabet } from '$lib/stores';
+	import { alphabet } from '$lib/stores/main';
 	import CollisionProbability from './(home)/CollisionProbability.svelte';
 
 	let generateNanoids: () => void;
@@ -18,9 +18,9 @@
 		type="button"
 		disabled={$alphabet === ''}
 		class="mx-auto w-2/3 rounded-sm
-	bg-sea-green-700/80 py-2 text-lg tracking-wide text-white transition
+	bg-sea-green-700/80 py-2 text-lg font-medium tracking-wide text-white transition
 	duration-300 enabled:hover:bg-sea-green-700 disabled:cursor-not-allowed
-	disabled:opacity-40 sm:w-1/2"
+	disabled:opacity-40 dark:bg-celtic-400 dark:text-celtic-900 dark:enabled:hover:bg-celtic-400/80 sm:w-1/2"
 		on:click={generateNanoids}
 	>
 		Generate

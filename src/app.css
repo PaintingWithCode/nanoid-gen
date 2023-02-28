@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dark [type='checkbox']:checked {
+	background-color: currentColor;
+}
+
+body * {
+	@apply transition-colors;
+}

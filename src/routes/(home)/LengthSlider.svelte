@@ -2,7 +2,7 @@
 	import RangeSlider from 'svelte-range-slider-pips';
 	import type { OnChange } from 'svelte-range-slider-pips';
 	import { Label } from '$lib/components/form';
-	import { length } from '$lib/stores';
+	import { length } from '$lib/stores/main';
 
 	function handleChange(event: CustomEvent<OnChange>) {
 		$length = event.detail.value;
@@ -21,7 +21,7 @@
 		pipstep={4}
 		all="label"
 	/>
-	<p class="pt-2 text-sea-green-900">
+	<p class="pt-2 text-sea-green-900 dark:text-celtic-100">
 		<strong class="font-mono">{$length}</strong> characters
 	</p>
 </div>
@@ -35,5 +35,15 @@
 		--range-pip-hover: #183c2d;
 		--range-pip-active: #183c2d;
 		--range-pip-active-text: #183c2d;
+	}
+
+	:global(.dark) {
+		--range-slider: #15382c;
+		--range-handle-inactive: #297255;
+		--range-handle-focus: #f0f9f4;
+		--range-pip-text: #72867d;
+		--range-pip-hover: #f0f9f4;
+		--range-pip-active: #f0f9f4;
+		--range-pip-active-text: #f0f9f4;
 	}
 </style>

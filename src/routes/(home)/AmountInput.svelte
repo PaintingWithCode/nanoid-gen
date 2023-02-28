@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Label, Input } from '$lib/components/form';
 	import { MAX_AMOUNT, MIN_AMOUNT } from '$lib/constants';
-	import { amount } from '$lib/stores';
+	import { amount } from '$lib/stores/main';
 
 	function isValidInput(inputValue: string) {
 		const newAmount = parseInt(inputValue);

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Label, Input } from '$lib/components/form';
-	import { prefix } from '$lib/stores';
+	import { prefix } from '$lib/stores/main';
 </script>
 
 <div class="flex basis-1/2 flex-col">
