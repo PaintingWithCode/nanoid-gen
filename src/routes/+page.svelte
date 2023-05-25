@@ -6,6 +6,10 @@
 	let generateNanoids: () => void;
 </script>
 
+<svelte:head>
+	<meta name="robots" content="index" />
+</svelte:head>
+
 <div class="flex flex-col space-y-4 sm:space-y-8">
 	<AlphabetInput />
 	<LengthSlider />
