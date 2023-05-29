@@ -9,6 +9,7 @@
 	}
 </script>
 
+s
 <div class="flex flex-col">
 	<Label inputId="length-slider" text="Length" />
 	<RangeSlider
@@ -20,6 +21,7 @@
 		pips
 		pipstep={4}
 		all="label"
+		springValues={{ stiffness: 0.1, damping: 0.6 }}
 	/>
 	<p class="pt-2 text-sea-green-900 dark:text-celtic-100">
 		<strong class="font-mono">{$length}</strong> characters
