@@ -9,7 +9,6 @@
 	}
 </script>
 
-s
 <div class="flex flex-col">
 	<Label inputId="length-slider" text="Length" />
 	<RangeSlider
