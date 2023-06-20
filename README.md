@@ -11,11 +11,8 @@ In addition, it also displays the collision probability for the given alphabet a
 ## Setup
 
 ```bash
-npm i
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm i
+pnpm dev
 ```
 
 ## Inspired By
